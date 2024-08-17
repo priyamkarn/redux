@@ -11,7 +11,7 @@ function BookContainer() {
     const dispatch=useDispatch()
   return (
     <><div>BookContainer</div>
-    <button onClick={() => (dispatch(purchaseBook))}/>
+    <button onClick={() => (dispatch(purchaseBook())}/>
       </>
   )
 }
